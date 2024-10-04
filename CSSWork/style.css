@@ -1,0 +1,45 @@
+body{
+    background-color: azure;
+}
+.container{
+    background-color: cadetblue;
+    height: 100%;
+    width: auto;
+    border: 5px solid red;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row-reverse;
+}
+.child1,.child2,.child3,.child4{
+    height: 200px;
+    width: 200px;
+    border:3px dotted goldenrod;
+    color: aliceblue;
+    margin: 60px;
+}
+.child1{
+    background-color: brown;
+}
+.child2{
+    background-color: grey;
+}
+.child3{
+    background-color:blue ;
+
+}
+.child4{
+    background-color:violet ;
+}
+/*div+p{ selects the sibling 
+    background-color: yellow;
+}
+div>p{ selects the descendant
+}
+#child1{
+    background-color: yellow;
+}
+.myclass{
+    background-color: blueviolet;
+}*/
